@@ -16,9 +16,11 @@ const assertArraysEqual = function(array1, array2){
         return [array[middleIndex]]
     }else {
         let middleIndex = Math.ceil((array.length - 1) / 2);
-        console.log(middleIndex);
+        //console.log(middleIndex);
         return [array[middleIndex], array[middleIndex + 1]]
     }
   }
 
   console.log(middle([1,2,3,4]));
+  middle([1, 2, 3, 4, 5, 6])
+  

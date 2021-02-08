@@ -8,7 +8,11 @@ const map = function(array, callback) {
     return results1;
 }
 
+const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
+
 assertArraysEqual(map([3, 4, 5, 6, 7], num => num * 7), [21, 28, 35, 42, 49])
+assertArraysEqual(map(data2, x => x === ','), ["i've never been here", "where is hollywood"
+assertArraysEqual(map([1, 2, 3, 4, 5], num => num % 3 === 0), [1, 3, 5, 7])
 
 
 
