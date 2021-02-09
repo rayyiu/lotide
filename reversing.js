@@ -9,3 +9,4 @@ const reverse = function(string){
 };
 
 console.log(reverse("string number 1"));
+module.exports = reverse;

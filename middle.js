@@ -10,7 +10,7 @@ const middle = function (array){
     }else {
         let middleIndex = Math.ceil((array.length - 1) / 2);
         //console.log(middleIndex);
-        return [array[middleIndex], array[middleIndex + 1]]
+        return [array[middleIndex], array[middleIndex - 1]]
     }
   }
 

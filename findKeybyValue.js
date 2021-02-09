@@ -23,3 +23,4 @@ const assertEqual = function(actual, expected) {
 
   findKeyByValue({name : "johnny", lmao : "lol",}, "johnny")
   assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
+  module.exports = findKeyByValue;

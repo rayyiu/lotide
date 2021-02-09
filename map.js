@@ -27,3 +27,4 @@ const assertArraysEqual = function(array1, array2){
   }
 
   console.log(map(words, words.filter))
+  module.exports = map;
