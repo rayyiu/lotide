@@ -7,4 +7,5 @@ const eqArrays = (array1, array2) => {
 return true;
 }
 
-const assertEqual = require('assertEqual')
+const assertEqual = require('./assertEqual')
+module.export = eqArrays;
