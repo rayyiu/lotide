@@ -8,4 +8,5 @@ return true;
 }
 
 const assertEqual = require('./assertEqual')
-module.export = eqArrays;
+console.log(assertEqual);
+module.exports = eqArrays;

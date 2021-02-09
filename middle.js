@@ -1,7 +1,8 @@
 const assertArraysEqual = require("./assertArraysEqual.js")
-  const middle = function (array){
-    if (array.length === 1 || array.length === 2){
-        return [];
+
+const middle = function (array){
+  if (array.length === 1 || array.length === 2){
+    return [];
     }
     if (array.length % 3 === 0){
         let middleIndex = (array.length - 1)/ 2
@@ -13,7 +14,5 @@ const assertArraysEqual = require("./assertArraysEqual.js")
     }
   }
 
-  console.log(middle([1,2,3,4]));
-  assertArraysEqual(middle([1, 2, 3, 4, 5, 6]));
-  module.export = middle;
+  module.exports = middle;
   
